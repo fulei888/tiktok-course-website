@@ -156,7 +156,7 @@ export default async function CoursePage() {
             <span className="text-gray-600">
               👋 {user.firstName || user.emailAddresses[0].emailAddress}
             </span>
-            <UserButton afterSignOutUrl="/" />
+            <UserButton />
           </div>
         </div>
       </header>

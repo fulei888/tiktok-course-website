@@ -36,7 +36,7 @@ export default async function LandingPage() {
                     Get Started
                   </Link>
                 )}
-                <UserButton afterSignOutUrl="/" />
+                <UserButton />
               </>
             ) : (
               <>
